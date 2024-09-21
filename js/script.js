@@ -23,12 +23,13 @@ let fullName = firstName +" " + lastName;
 
 // Exercise number 4 y 5
 let strFirstName;
+strFirstName = "Erika";
 let strLastName;
 let strAddress;
 let strCity = "San Diego";
-let strState = "California";
+let strState;
 let strZipCode;
-let intYourAge;
+const intYourAge = 42;
 let strReferralSource;
 let boolMayWecontactyou = true;
 
@@ -69,7 +70,7 @@ let objExample = {name: "Erika", age:42};
 console.log(typeof objExample)
 let underfinedExample;
 console.log(typeof underfinedExample);
-/* 
+/*
 //  Test those exercises running HTML5.html
 //Exercise number 11
 let myName ="Erika";
